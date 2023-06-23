@@ -1,7 +1,6 @@
 body {
   background-image: url("yellowbck.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .emoji {
@@ -10,6 +9,8 @@ body {
   margin: auto;
   width: 15%;
   margin-top: 30px;
+  background-color: black;
+  border-radius: 100%;
 }
 
 .container {
