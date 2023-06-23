@@ -1,0 +1,65 @@
+body {
+  background-image: url("yellowbck.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.emoji {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 15%;
+  margin-top: 30px;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 75px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0074D9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  margin-top: 40px;
+}
+
+.button:hover::after {
+  content: "Big mistake...";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 10px);
+  transform: translateY(-50%);
+  font-size: 14px;
+  white-space: nowrap;
+  color: #C62828;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.p {
+  width: 300px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+
+
+
+
+
